@@ -40,5 +40,6 @@ def deploy():
     make_xinetd_challenge('babyecho', 3232, '../baby_s_first-1-babyecho/orig/babyecho_eb11fdf6e40236b1a37b7974c53b6c3d', '../baby_s_first-1-babyecho/flag.txt')
     make_xinetd_challenge('r0pbaby', 10436, '../baby_s_first-1-r0pbaby/orig/r0pbaby_542ee6516410709a1421141501f03760', '../baby_s_first-1-r0pbaby/flag.txt')
     make_xinetd_challenge('wwtw', 2606, '../pwnable-2-wibbly_wobbly_timey_wimey/orig/wwtw_c3722e23150e1d5abbc1c248d99d718d', '../pwnable-2-wibbly_wobbly_timey_wimey/flag.txt')
+    make_xinetd_challenge('fuckup', 2000, '../pwnable-3-fuckup/orig/fuckup_56f604b0ea918206dcb332339a819344', 'other_flags/pwnable-3-fuckup/flag.txt')
 
     sudo('/etc/init.d/xinetd restart')
